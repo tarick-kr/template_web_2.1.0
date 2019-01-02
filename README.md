@@ -1,7 +1,11 @@
-Стартовый шаблон автора канала FrontCoder
+Мой стартовый шаблон 
 
-Используется связка Gulp + Pug + SCSS + BrowserSync
+За основу взят Стартовый шаблон автора канала FrontCoder
 
-В зависимости добавлен bootstrap 4.2.1 и вместо normalize.css используется bootstrap-reboot.css
+Используется связка Gulp + Pug + SАSS + BrowserSync
 
-Подключен шрифт "OpenSans"
+В зависимости добавлен bootstrap 4.2.1 и вместо normalize.css используется bootstrap-reboot
+
+Вместо SCSS используется SASS
+
+Добавлены шрифты
