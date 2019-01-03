@@ -34,7 +34,8 @@
     "imagemin-pngquant": "^6.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap-4-grid": "^2.4.1",
+    "normalize.css": "^8.0.1",
     "svg4everybody": "^2.1.9",
     "yarn": "^1.12.3"
   }

@@ -3,7 +3,7 @@
 
 Используется связка Gulp + Pug + SАSS + BrowserSync
 
-В зависимости добавлен bootstrap 4.2.1 и вместо normalize.css используется bootstrap-reboot
+В зависимости добавлена сетка bootstrap-4-grid
 
 Вместо SCSS используется SASS
 
