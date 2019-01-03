@@ -1,5 +1,79 @@
-/*!
- * Media-requests
- */
+@import "vars"
+
+//
+//  MEDIA QUERIES
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+//
+//  RESPOND ABOVE 
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// (т.е. стили применятся пока ширина экрана больше "min-width")
+
++respond-above(xs)
+
+
++respond-above(sm)
+
+
++respond-above(md)
+
+
++respond-above(lg)
+	html
+		body
+			background-color: aqua
+
+
+
+
+
+
+
+
+	
+//-------------------------------------------------------------
+//
+//  RESPOND BELOW
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// (т.е. стили применятся пока ширина экрана меньше "max-width")
+
++respond-below(xs)
+	html
+		body
+			background-color: orange
+
++respond-below(sm)
+
+
++respond-below(md)
+
+
++respond-below(lg)
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------
+//
+//  RESPOND BETWEEN
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// (т.е. стили применятся пока ширина экрана больше "min-width" и меньше "max-width")
++respond-between(xs, sm)
+	html
+		body
+			background-color: green
+
++respond-between(sm, md)
+	html
+		body
+			background-color: blue
+
++respond-between(md, lg)
+	html
+		body
+			background-color: black
+
 
 
