@@ -1,11 +1,5 @@
-Мой стартовый шаблон 
+Стартовый шаблон автора канала FrontCoder
 
-За основу взят Стартовый шаблон автора канала FrontCoder
+Используется связка Gulp + Pug + SCSS + BrowserSync
 
-Используется связка Gulp + Pug + SАSS + BrowserSync
-
-В зависимости добавлен bootstrap 4.2.1 и вместо normalize.css используется bootstrap-reboot
-
-Вместо SCSS используется SASS
-
-Добавлены шрифты
+В зависимости добавлен bootstrap 4.2.1 и вместо normalize.css используется bootstrap-reboot.css
