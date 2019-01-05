@@ -1,57 +1,73 @@
 @import "vars"
-
 //
 //  MEDIA QUERIES
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-
+// Используются стандартные миксины Bootstrap которые находятся
+// в файле \node_modules\bootstrap-4-grid\scss\breakpoints\mixins\_breakpoints.scss
 //
-//  RESPOND ABOVE 
-//––––––––––––––––––––––––––––––––––––––––––––––––––
-// (т.е. стили применятся пока ширина экрана больше "min-width")
-
-+respond-above(xs)
+// Медиа-запросы можно писать как в этом файле, так и в style.sass
 
 
-+respond-above(sm)
-
-
-+respond-above(md)
-
-
-+respond-above(lg)
-	html
-		body
-			background-color: aqua
-
-
-
-
-
-
-
-
-	
 //-------------------------------------------------------------
 //
 //  RESPOND BELOW
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-// (т.е. стили применятся пока ширина экрана меньше "max-width")
+// (стили применятся от указанной ширины и меньше)
 
-+respond-below(xs)
-	html
-		body
-			background-color: orange
+// "desktop-wide" 1440px
++media-breakpoint-down(xxl)
 
-+respond-below(sm)
+// "desktop" 1248px
++media-breakpoint-down(xl)
+
+// "tablet-wide" 1024px
++media-breakpoint-down(lg)
+
+// "tablet" 768px
++media-breakpoint-down(md)
+
+// "tablet-small" 640px
++media-breakpoint-down(smd)
+
+// "phablet" 560px
++media-breakpoint-down(sm)
+
+// "phone-wide" 480px
++media-breakpoint-down(xs)
+
+// "phone" 400px
++media-breakpoint-down(xxs)
 
 
-+respond-below(md)
+//-------------------------------------------------------
+//
+//  RESPOND ABOVE 
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// (стили применятся от указанной ширины и больше)
 
+// "phone" 400px
++media-breakpoint-up(xxs)
 
-+respond-below(lg)
+// "phone-wide" 480px
++media-breakpoint-up(xs)
 
+// "phablet" 560px
++media-breakpoint-up(sm)
 
+// "tablet-small" 640px
++media-breakpoint-up(smd)
 
+// "tablet" 768px
++media-breakpoint-up(md)
+
+// "tablet-wide" 1024px
++media-breakpoint-up(lg)
+
+// "desktop" 1248px
++media-breakpoint-up(xl)
+
+// "desktop-wide" 1440px
++media-breakpoint-up(xxl)
 
 
 
@@ -59,21 +75,39 @@
 //
 //  RESPOND BETWEEN
 //––––––––––––––––––––––––––––––––––––––––––––––––––
-// (т.е. стили применятся пока ширина экрана больше "min-width" и меньше "max-width")
-+respond-between(xs, sm)
-	html
-		body
-			background-color: green
+// (стили применятся пока ширина экрана будет между указанных значений ширин)
 
-+respond-between(sm, md)
-	html
-		body
-			background-color: blue
-
-+respond-between(md, lg)
-	html
-		body
-			background-color: black
++media-breakpoint-between(md, lg)
 
 
+
+//-------------------------------------------------------------------------------------
+//
+//  RESPOND ONLY
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// (стили применятся для указанной ширины экрана)
+
+// "phone" 400px
++media-breakpoint-only(xxs)
+
+// "phone-wide" 480px
++media-breakpoint-only(xs)
+
+// "phablet" 560px
++media-breakpoint-only(sm)
+
+// "tablet-small" 640px
++media-breakpoint-only(smd)
+
+// "tablet" 768px
++media-breakpoint-only(md)
+
+// "tablet-wide" 1024px
++media-breakpoint-only(lg)
+
+// "desktop" 1248px
++media-breakpoint-only(xl)
+
+// "desktop-wide" 1440px
++media-breakpoint-only(xxl)
 
