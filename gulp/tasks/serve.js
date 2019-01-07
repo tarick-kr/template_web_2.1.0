@@ -3,7 +3,7 @@ module.exports = function() {
         $.browserSync.init({
             server: './build',
         	notify: false,
-        	// open: false,
+        	open: false,
 			// tunnel: true,
 			// tunnel: "projectmane", //Demonstration page: http://projectmane.localtunnel.me
         });
