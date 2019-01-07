@@ -35,7 +35,6 @@
   },
   "dependencies": {
     "bootstrap-4-grid": "^2.4.1",
-    "svg4everybody": "^2.1.9",
-    "yarn": "^1.12.3"
+    "svg4everybody": "^2.1.9"
   }
 }
